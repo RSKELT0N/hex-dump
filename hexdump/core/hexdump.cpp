@@ -110,7 +110,8 @@ namespace hexdump
 
         utils::read_entire_file(input_fd, &input_arr);
         process_hex(input_file, input_arr, input_size);
-
+        
+        fclose(input_fd);
         delete[] input_arr;
     }
 }
