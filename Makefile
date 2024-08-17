@@ -3,7 +3,7 @@ CXX := g++
 CXX_FLAGS := -std=c++20 -Wall -Wextra -c
 
 # project info
-SRC_DIR := hexdump/core
+SRC_DIR := src
 BUILD_DIR := build
 
 TARGET := hex-dump
